@@ -1,0 +1,7 @@
+services:
+    one-tone:
+        image: ghcr.io/one2pret/one-tone-proto:latest
+        container_name: one-tone-app
+        restart: unless-stopped
+        ports:
+            - "8095:80"
